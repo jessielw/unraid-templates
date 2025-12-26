@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>Mp4Forge</Name>
+  <Repository>ghcr.io/jessielw/mp4forge</Repository>
+  <Registry>https://github.com/jessielw/MP4Forge/pkgs/container/mp4forge</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://forums.unraid.net/topic/196057-support-jessielw-mp4forge/</Support>
+  <Project>https://github.com/jessielw/MP4Forge</Project>
+  <ReadMe>https://github.com/jessielw/MP4Forge</ReadMe>
+  <Overview>Mp4Forge (https://github.com/jessielw/MP4Forge) is a lightweight open source MP4Box GUI. </Overview>
+  <Category>Tools:</Category>
+  <WebUI>http://[IP]:[PORT:8000]</WebUI>
+  <TemplateURL/>
+  <Icon>https://github.com/jessielw/MP4Forge/blob/main/runtime/images/mp4.png?raw=true</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1766780449</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="WebUI" Target="8000" Default="8000" Mode="tcp" Description="Port for webui" Type="Port" Display="always" Required="true" Mask="false">8000</Config>
+  <Config Name="Appdata" Target="/app/runtime" Default="/mnt/cache/appdata/mp4forge/runtime" Mode="rw" Description="Config and logs" Type="Path" Display="advanced" Required="true" Mask="false">/mnt/cache/appdata/mp4forge/runtime</Config>
+  <TailscaleStateDir/>
+</Container>
