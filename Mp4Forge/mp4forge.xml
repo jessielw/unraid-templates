@@ -11,14 +11,14 @@
   <Project>https://github.com/jessielw/MP4Forge</Project>
   <ReadMe>https://github.com/jessielw/MP4Forge</ReadMe>
   <Overview>Mp4Forge (https://github.com/jessielw/MP4Forge) is a lightweight open source MP4Box GUI. </Overview>
-  <Category>Tools:</Category>
+  <Category>Tools: MediaApp:Video</Category>
   <WebUI>http://[IP]:[PORT:8000]</WebUI>
   <TemplateURL/>
   <Icon>https://github.com/jessielw/MP4Forge/blob/main/runtime/images/mp4.png?raw=true</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1766780449</DateInstalled>
+  <DateInstalled>1766780779</DateInstalled>
   <DonateText/>
   <DonateLink/>
   <Requires/>
