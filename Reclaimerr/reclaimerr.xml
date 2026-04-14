@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>Reclaimerr</Name>
+  <Repository>ghcr.io/jessielw/reclaimerr:latest</Repository>
+  <Registry>https://github.com/jessielw/Reclaimerr/pkgs/container/reclaimerr</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://forums.unraid.net/topic/198276-support-jessielw-reclaimerr/</Support>
+  <Project>https://github.com/jessielw/Reclaimerr</Project>
+  <ReadMe/>
+  <Overview>Automatically reclaim space in your media library using customizable rules. Integrates with Jellyfin and/or Plex to analyze and manage your content. Functions similarly to Seerr (in reverse), providing efficient media cleanup and organization </Overview>
+  <Category>MediaApp:Video MediaServer:Video Status:Beta</Category>
+  <WebUI>http://[IP]:[PORT:8000]</WebUI>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/jessielw/Reclaimerr/refs/heads/main/public/logo.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1776200634</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="Path: /app/data" Target="/app/data" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/cache/appdata/reclaimerr</Config>
+  <Config Name="Host Port for 8000" Target="8000" Default="8000" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">8000</Config>
+  <TailscaleStateDir/>
+</Container>
