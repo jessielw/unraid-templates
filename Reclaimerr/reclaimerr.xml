@@ -5,6 +5,7 @@
   <Registry>https://github.com/jessielw/Reclaimerr/pkgs/container/reclaimerr</Registry>
   <Network>bridge</Network>
   <MyIP/>
+  <MyMAC/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
   <Support>https://forums.unraid.net/topic/198276-support-jessielw-reclaimerr/</Support>
@@ -18,11 +19,13 @@
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1776200634</DateInstalled>
+  <DateInstalled>1778292865</DateInstalled>
   <DonateText/>
   <DonateLink/>
   <Requires/>
   <Config Name="Path: /app/data" Target="/app/data" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/cache/appdata/reclaimerr</Config>
   <Config Name="Host Port for 8000" Target="8000" Default="8000" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">8000</Config>
+  <Config Name="Path: /media" Target="/media" Default="" Mode="rw" Description="Optional: Bind mount for media files (adjust the host path as needed) this is needed for Reclaimerr to clean up additional files on delete when deleting via the main media server directly" Type="Path" Display="always" Required="false" Mask="false"/>
+  <Config Name="Path: /moved_files" Target="/moved_files" Default="" Mode="rw" Description="Optional: Volume for moved files (adjust the host path as needed) - /moved_files:/moved_files" Type="Path" Display="always" Required="false" Mask="false"/>
   <TailscaleStateDir/>
 </Container>
