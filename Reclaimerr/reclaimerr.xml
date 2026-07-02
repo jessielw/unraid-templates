@@ -27,7 +27,6 @@
   <Config Name="Host Port for 8000" Target="8000" Default="8000" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">8000</Config>
   <Config Name="Path: /media" Target="/media" Default="" Mode="rw" Description="Optional: Bind mount for media files (adjust the host path as needed) this is needed for Reclaimerr to clean up additional files on delete when deleting via the main media server directly" Type="Path" Display="always" Required="false" Mask="false"/>
   <Config Name="Path: /moved_files" Target="/moved_files" Default="" Mode="rw" Description="Optional: Volume for moved files (adjust the host path as needed) - /moved_files:/moved_files" Type="Path" Display="always" Required="false" Mask="false"/>
-  <Config Name="TZ" Target="TZ" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">America/New_York</Config>
   <Config Name="PUID" Target="PUID" Default="99" Mode="" Description="" Type="Variable" Display="advanced" Required="true" Mask="false">99</Config>
   <Config Name="PGID" Target="PGID" Default="100" Mode="" Description="" Type="Variable" Display="advanced" Required="true" Mask="false">100</Config>
   <Config Name="UMASK" Target="UMASK" Default="022" Mode="" Description="" Type="Variable" Display="advanced" Required="true" Mask="false">022</Config>
